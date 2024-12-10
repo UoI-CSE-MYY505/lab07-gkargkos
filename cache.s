@@ -33,6 +33,7 @@ outerloop:
     # loop initialization: s5 contains index, s6 contains &array[index]
     add    s5, zero, zero    # i = 0
     la     s6, array         # ptr = &(array[0])
+    la     s6, array         # ptr = &(array[0])
 
 innerloop:
     bne    s1, zero, else   # if option == 0
